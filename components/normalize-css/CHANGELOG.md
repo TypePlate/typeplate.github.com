@@ -5,8 +5,7 @@
 == 2.0.0 (August 19, 2012)
 
 * Remove legacy browser form normalizations.
-* Remove all list normalizations.
-* Add `quotes` normalizations.
+* Remove all list normalizationssdfsdf
 * Remove all heading normalizations except `h1` font size.
 * Form elements automatically inherit `font-family` from ancestor.
 * Drop support for IE 6/7, Firefox < 4, and Safari < 5.
