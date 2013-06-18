@@ -594,9 +594,33 @@ $sizes: tera $tera, giga $giga, mega $mega, alpha $alpha, beta $beta, gamma $gam
 // Sass loop to associate h1-h6 tags with their appropriate greek
 // heading based on a modular scale.
 // for each size in the scale, create a class
+// @each $size in $sizes {
+	// .#{nth($size, 1)} {
+		// @include modular-scale(nth($size, 2), $font-base, '#{$type-scale-unit-value}', $measure);
+	// }
+// } // Is there an easier way of specifiying a modular scale of my own, but to comment this out and create my own:
+// https://github.com/TeamSass/modularscale
+$golden: 1.618;
+// $doubleoctave: 4;
+// $majortwelfth: 3;
+// $majoreleventh: 2.667;
+// $majortenth: 2.5;
+// $octave: 2;
+// $majorseventh: 1.875;
+// $minorseventh: 1.778;
+// $majorsixth: 1.667;
+// $minorsixth: 1.6;
+// $fifth: 1.5;
+// $augmentedfourth: 1.414;
+// $fourth: 1.333;
+// $majorthird: 1.25;
+// $minorthird: 1.2;
+// $majorsecond: 1.125;
+// $minorsecond: 1.067;
+
 @each $size in $sizes {
 	.#{nth($size, 1)} {
-		@include modular-scale(nth($size, 2), $font-base, '#{$type-scale-unit-value}', $measure);
+		@include modular-scale($golden, $font-base, '#{$type-scale-unit-value}', $measure);
 	}
 }
 
