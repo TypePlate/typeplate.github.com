@@ -58,15 +58,38 @@ $icon-fonts: (cassannet, icomoon);
 // $TypeScale
 // -------------------------------------//
 
-$tera: 117; // 117 = 18 × 6.5
-$giga: 90; // 90 = 18 × 5
-$mega: 72; // 72 = 18 × 4
-$alpha: 60; // 60 = 18 × 3.3333
-$beta: 48; // 48 = 18 × 2.6667
-$gamma: 36; // 36 = 18 × 2
-$delta: 24; // 24 = 18 × 1.3333
-$epsilon: 21; // 21 = 18 × 1.1667
-$zeta: 18; // 18 = 18 × 1
+// $tera: 117; // 117 = 18 × 6.5
+// $giga: 90; // 90 = 18 × 5
+// $mega: 72; // 72 = 18 × 4
+// $alpha: 60; // 60 = 18 × 3.3333
+// $beta: 48; // 48 = 18 × 2.6667
+// $gamma: 36; // 36 = 18 × 2
+// $delta: 24; // 24 = 18 × 1.3333
+// $epsilon: 21; // 21 = 18 × 1.1667
+// $zeta: 18; // 18 = 18 × 1
+
+// http://modularscale.com/scale/?px1=16&px2=190&ra1=1.618&ra2=0
+// http://en.wikipedia.org/wiki/Greek_alphabet
+$tera: 109.657;
+$giga: 72.577;
+$mega: 67.773;
+$alpha: 44.856;
+$beta: 41.887;
+$gamma: 27.723;
+$delta: 25.888;
+$epsilon: 17.134;
+$zeta: 16;
+
+$eta: 10.590;
+$theta: 9.889;
+$iota: 6.545;
+$kappa: 6.112;
+$lambda: 4.045;
+$mu: 3.778;
+$nu: 2.500;
+$xi: 2.335;
+$omicron: 1.545;
+$pi: 1.443;
 
 
 // $TypeScale-Unit
